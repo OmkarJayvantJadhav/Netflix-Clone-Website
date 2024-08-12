@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background: #000000;
+	padding: 10px;
+}
+
+.title {
+	color: #c71d1d;
+	text-align: center;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.show {
+	background: #f1f1f1;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 5px #ccc;
+	flex: 1 1 300px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.show img {
+	height: auto;
+	max-width: 100%;
+}
+
+.show p {
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+	.show {
+		flex: 1 1 100%;
+	}
+}
